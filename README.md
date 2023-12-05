@@ -1,2 +1,3 @@
-# MLB-Pitches
-Arremessos da MLB de2015-219
+# Projeto de Ciência de Dados com os arremessos da MLB de 2015-2018
+rojeto de ciÊncia de dados utilizando a  base de dados do Kaggle [link](https://www.kaggle.com/code/lucasdataartist/mlb-pitch-data-2015-8-visualization-only-plt-sns), mas utilizando somente o arquivo pitches_2019, o projeto foi escrito na linguagem Python. Os dados estão no formato CSV e contém informações sobre  cada arremesso dessas temporadas com os dados atribuídos a cada jogada. A ideia principal do projeto é tentar encontrar as melhores variáveis que expliquem o que leva ao **strike**, que é um dos principais objetivos do arremessador, onde o strike acontece (`strike = 1`) ou não (`strike = 0`), ou seja, queremos entender quais as principais bases estatísticas que podem ser estudadas para auxiliar o arremessador a atingir o máximo de strikes posssíveis com base nas diversas variávies que possuímos nessa base de dados. OBS: serão levados em conta apenas as estatisticas dos arremessos, deixando de lado a parte dos rebatedores e outros fatores.
+Uma descrição completa dos atributos está abaixo.
