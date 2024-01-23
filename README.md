@@ -64,11 +64,17 @@ statsmodels==0.13.5
 
 # Storytelling
 
-Foram uilizados inicialmente todas as variáveis, e através de testes utilizando o statsmodel e o R2 como base foram sendo definidas quais variáveis seriam melhores para atingir um melhor R2. Para isso além do statsmodel também foram utilizados gráficos para análise exploratória dos dados. Então ao fim do modelo, foi atingido um R2 não muito alto onde chegou-se as seguintes conclusões:
+Foram uilizados inicialmente todas as variáveis, e através de testes utilizando o statsmodel e o R2 como base foram sendo definidas quais variáveis seriam melhores para atingir um melhor R2. Para isso além do statsmodel também foram utilizados gráficos para análise exploratória dos dados. Então ao fim do modelo, chegou-se as seguintes conclusões:
 
--  R2 foi bem baixo, então conclui-se que essas variáveis não são o suficiente para fazer um melhor modelo preditivo;
+- Num primeiro momento utilizando apenas os dados de 2019 o R2 foi bem baixo, então conclui-se que essas variáveis não são o suficiente para fazer um melhor modelo preditivo;
 - Dito isto, somente foi utilizado uma parte do data-set original, então provavelemnte as outras partes do "quebra-cabeças" estão nessa outra parte que contém os rebatedores e demais informações estat´sticas de outras jogadas;
-- Apesar disso, as variáveis escolhidas apresenaram um a certa influência dentro do modelo, precisando apenas de mais ajuda de outras variáveis.
+- Apesar disso, as variáveis escolhidas apresenaram um a certa influência dentro do modelo, precisando apenas de mais ajuda de outras variáveis;
+- Num novo notebook foi-se utilizado os dados de todas as temporadas, onde mais uma vez foram utilizadas as mesmas ferramentas de analises exploratorias;
+- Os gráficos mostram que os arremessos que mais conseguem strike sao a bola rapida (FF) em seguida da slider (SL), que são arremessos comuns de diversos arremessadores, o que indica o porquê gerarem mais strikeouts;
+- Também são os que cedem mais walks pelo mesmo motivo;
+- Com os dados de arremessos completos chegou-se a um R2 de 76%, muito maior do que o anterior, indicando que um escopo maior deu mais qualidade e poder ao modelo preditivo;
+- Apesar disso, mesmo alterando as variáveis de acordo com o p-value o R2 não mudou;
+- O que indica que o modelo somente pode melhorar adicionando mais variáveis no caso dos rebatedores, ou alterando o x das variáveis.
 
 ## Autores
 
